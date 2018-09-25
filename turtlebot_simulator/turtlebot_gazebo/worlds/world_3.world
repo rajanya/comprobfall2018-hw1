@@ -288,7 +288,7 @@
             <polyline>
               <point>-1 -4</point>
               <point>-7 2</point>
-              <point>-8 1</point>
+              <point>-7 1</point>
               <point>-2 -5</point>
               <height>1</height>
             </polyline>
@@ -299,7 +299,7 @@
             <polyline>
 	      <point>-1 -4</point>
               <point>-7 2</point>
-              <point>-8 1</point>
+              <point>-7 1</point>
               <point>-2 -5</point>
               <height>1</height>
             </polyline>
@@ -320,8 +320,8 @@
           <geometry>
             <polyline>
               <point>-3 -4</point>
+              <point>-7 -6</point>
               <point>-7 -7</point>
-              <point>-7 -8</point>
               <point>-3 -5</point>
               <height>1</height>
             </polyline>
@@ -331,8 +331,8 @@
           <geometry>
             <polyline>
               <point>-3 -4</point>
+              <point>-7 -6</point>
               <point>-7 -7</point>
-              <point>-7 -8</point>
               <point>-3 -5</point>
               <height>1</height>
             </polyline>
