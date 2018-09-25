@@ -21,7 +21,14 @@ content="<?xml version=\"1.0\" ?>
 
 obstacle_cnt=1
 coordinate_file="$1"
-while IFS=';' read -ra line
+if [ "$2" == "" ]
+then
+    color="Wood"
+else
+    color="$2"
+fi
+
+while IFS=' ' read -ra line
 do
     content+="<model name=\"obstacle$obstacle_cnt\">
       <static>true</static>
@@ -31,6 +38,8 @@ do
                     <polyline>"
 
     for coordinate in "${line[@]}"; do
+        coordinate=${coordinate:1:-1}
+        coordinate=${coordinate/,/ }
     	geom_content+="<point>$coordinate</point>"
     done
     geom_content+="<height>1</height>
@@ -43,7 +52,7 @@ do
     content+="<material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
+              <name>Gazebo/$color</name>
             </script>
           </material>
         </visual>  
