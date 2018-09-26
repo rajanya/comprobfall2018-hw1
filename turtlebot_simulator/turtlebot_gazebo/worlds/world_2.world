@@ -45,7 +45,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Turquoise</name>
+              <name>Gazebo/Wood</name>
             </script>
           </material>
         </visual>  
@@ -80,7 +80,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Black</name>
+              <name>Gazebo/Wood</name>
             </script>
           </material>
         </visual>  
@@ -115,7 +115,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Green</name>
+              <name>Gazebo/Wood</name>
             </script>
           </material>
         </visual>  
@@ -150,7 +150,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Orange</name>
+              <name>Gazebo/Wood</name>
             </script>
           </material>
         </visual>
@@ -183,7 +183,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Blue</name>
+              <name>Gazebo/Black</name>
             </script>
           </material>
         </visual>  
@@ -216,7 +216,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Blue</name>
+              <name>Gazebo/Black</name>
             </script>
           </material>
         </visual>  
@@ -249,7 +249,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Blue</name>
+              <name>Gazebo/Black</name>
             </script>
           </material>
         </visual>  
@@ -282,7 +282,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Blue</name>
+              <name>Gazebo/Black</name>
             </script>
           </material>
         </visual>  
